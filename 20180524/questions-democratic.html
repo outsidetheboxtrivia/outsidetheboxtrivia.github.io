@@ -10,13 +10,18 @@
 
 function showAnswers(){
 
-console.log("in show");
 
 var answers = document.getElementsByClassName("answer");
-
+var theme = document.getElementsByClassName("theme");
 
 for (var i=0; i<answers.length; i++) {
   answers[i].style.visibility  = "visible";
+    answers[i].style.outlineColor = "green"
+	  answers[i].style.outlineStyle = "solid"
+}
+
+for (var i=0; i<theme.length; i++) {
+  theme[i].style.visibility  = "visible";
 }
 
 }
@@ -42,7 +47,7 @@ Could I borrow a cup of C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>, or this more
 </div>
 <div style="padding-bottom:30px;text-align:justify;width:590px">
 <span class="response"  style="padding-left:5px;display:inline-block" ><input type="text" style="font-size:24px;width:250px;color:black;font-family:Helvetica, Arial, sans-serif;" ></input></span>
-<span class="answer" style="visibility:hidden;outline-style: solid;outline-color: green;padding: 5px 5px 5px 5px;" >
+<span class="answer" style="visibility:hidden;padding: 5px 5px 5px 5px;" >
 Sugar
 </span>
 </div>
@@ -55,7 +60,7 @@ Got a hole in your socks?  You'll want to find someone who can do this, meaning 
 </div>
 <div style="padding-bottom:30px;text-align:justify;width:590px">
 <span class="response"  style="padding-left:5px;display:inline-block" ><input type="text" style="font-size:24px;width:250px;color:black;font-family:Helvetica, Arial, sans-serif;" ></input></span>
-<span class="answer" style="visibility:hidden;outline-style: solid;outline-color: green;padding: 5px 5px 5px 5px;" >
+<span class="answer" style="visibility:hidden;padding: 5px 5px 5px 5px;" >
 Darn 
 </span>
 </div>
@@ -68,7 +73,7 @@ This is the three-word common term for nacre, which is the gleaming, iridescent 
 </div>
 <div style="padding-bottom:30px;text-align:justify;width:590px">
 <span class="response"  style="padding-left:5px;display:inline-block" ><input type="text" style="font-size:24px;width:250px;color:black;font-family:Helvetica, Arial, sans-serif;" ></input></span>
-<span class="answer" style="visibility:hidden;outline-style: solid;outline-color: green;padding: 5px 5px 5px 5px;" >
+<span class="answer" style="visibility:hidden;padding: 5px 5px 5px 5px;" >
 Mother of Pearl
 </span>
 </div>
@@ -81,7 +86,7 @@ You are 'playing the straws' at your latest Cajun hoedown. Give me the proper na
 </div>
 <div style="padding-bottom:30px;text-align:justify;width:590px">
 <span class="response"  style="padding-left:5px;display:inline-block" ><input type="text" style="font-size:24px;width:250px;color:black;font-family:Helvetica, Arial, sans-serif;" ></input></span>
-<span class="answer" style="visibility:hidden;outline-style: solid;outline-color: green;padding: 5px 5px 5px 5px;" >
+<span class="answer" style="visibility:hidden;padding: 5px 5px 5px 5px;" >
 Fiddlesticks
 </span>
 </div>
@@ -94,15 +99,15 @@ South Park's Butters and his family have moved to Germany's second-largest city.
 </div>
 <div style="padding-bottom:30px;text-align:justify;width:590px">
 <span class="response"  style="padding-left:5px;display:inline-block" ><input type="text" style="font-size:24px;width:250px;color:black;font-family:Helvetica, Arial, sans-serif;" ></input></span>
-<span class="answer" style="visibility:hidden;outline-style: solid;outline-color: green;padding: 5px 5px 5px 5px;" >
+<span class="answer" style="visibility:hidden;padding: 5px 5px 5px 5px;" >
 Hamburgers
 </span>
 </div>
 
 
 <div style="padding-bottom:10px;padding-top:20px;text-align:justify;width:590px">
-<span class="answer"  style="visibility:hidden;padding-left:5px;display:inline-block" >Secret Theme: </span>
-<span class="answer" style="visibility:hidden;outline-style: solid;outline-color: green;padding: 5px 5px 5px 5px;" >
+<span class="theme"  style="visibility:hidden;padding-left:5px;display:inline-block" >Secret Theme: </span>
+<span class="answer" style="visibility:hidden;padding: 5px 5px 5px 5px;" >
 Euphanisms for Cuss Words
 </span>
 </div>
